@@ -1,2 +1,8 @@
 # obedienceChecker
 a pokemon obedience checker 
+
+The idea for this project came from my curiosity for Pokemon battle mechanics as I was playing through Pokemon Scarlet. In the recent generations of Pokemon, players are able to do what are called Surprise Trades (called Wonder Trades in Gens VI & VII). This feature pairs the player with another player via Internet in a matchmaking fashion where you get to choose which Pokemon you offer for trade, but you don't get to choose which Pokemon you will receive. The introduction of this feature led to me as a player trading a lot more often than I would in previous trading methods, and I'm assuming other players may relate. I've often received Pokemon with this feature that were very high level compared to my progress in the game. The Pokemon wouldn't obey if I were to take it into battle. The easy solution is to wait until you have enough badges before you add the Pokemon to your team. But why make things easy? 
+
+With this checker, you can determine the probability your Pokemon will disobey in any given turn and see if you're willing to risk the battle based on that probability. This checker might be used in a Wonderlocke Challenge variant that only lets you use Pokemon that have at least a small probability of disobeying. 
+
+Most of the data on the obedience formula and level caps is gathered from the Bulbapedia wiki. I haven't done much digging for information past Bulbapedia and their Obedience wiki is incomplete, so this checker still needs data from Gen V onward. I've gone and assumed the formula hasn't changed since Gen IV in this repository. 
